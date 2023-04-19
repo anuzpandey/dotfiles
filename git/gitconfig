@@ -1,0 +1,33 @@
+[alias]
+    a = add
+    aa = add --all
+
+    b = branch
+    ba = branch --all
+    bd = branch --delete
+    bD = branch --delete --force
+
+    c = commit
+    ca = commit --amend
+
+    d = diff
+    dc = diff --cached
+    ds = diff --staged
+
+    l = log
+    lg = log --graph
+
+    o = checkout
+    ob = checkout -b
+
+    s = status --short --branch
+
+    unstage = reset HEAD
+    undo-commit = reset --soft HEAD^
+
+[pull]
+    ff = only
+
+[init]
+    defaultBranch = main
+

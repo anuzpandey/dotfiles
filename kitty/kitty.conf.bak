@@ -11,9 +11,3 @@ enable_audio_bell 0
 hide_window_decorations titlebar-only
 window_padding_width 16
 
-
-
-# BEGIN_KITTY_THEME
-# One Dark
-include current-theme.conf
-# END_KITTY_THEME
